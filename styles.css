@@ -46,11 +46,11 @@ body {
     background-color: #696bde;
     padding:10px;
     border-radius:10px;
-    transition: background-color 1s ease, scale 1s ease;
+    transition: background-color 1s ease, scale 1s ease, color 1s ease;
 }
 .resumedownload:hover{
     background-color: #2023d9;
-    scale:1.2;
+    scale:1.1;
     h2{
         color:rgb(157, 157, 157);
     }
@@ -74,7 +74,7 @@ body {
 }
 
 .projectimage{
-    float:right;
+    float:left;
     transition: scale 0.5s ease,opacity 0.5s ease;
 }
 
@@ -84,8 +84,9 @@ body {
 }
 
 .educationtable{
-left:50%;
-translate:-50%;
+    width:auto;
+    left:50%;
+    translate:-50%;
 }
 
 .footer{
