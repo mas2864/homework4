@@ -17,6 +17,19 @@ body {
     left:0px;
     z-index: 1;
 }
+.mainbody{
+    grid-area: 1/2/1/2;
+    margin-top:140px;
+    margin-left:20px;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.mainbody>div{
+    width:90%;
+    justify-content: center;
+    margin: 20px auto;
+}
     
 .leftnav{
     grid-area: 1/1/1/1;
@@ -59,19 +72,7 @@ body {
     color:white;
     text-decoration: none;
 }
-.mainbody{
-    grid-area: 1/2/1/2;
-    margin-top:140px;
-    margin-left:20px;
-    display:flex;
-    flex-direction: column;
-    width:100%;
-}
-.mainbody>div{
-    width:90%;
-    justify-content: center;
-    margin: 20px auto;
-}
+
 
 .projectimage{
     padding:5px;
@@ -86,6 +87,7 @@ body {
 
 .educationtable{
     width:auto;
+    position:relative;
     left:50%;
     translate:-50%;
 }
