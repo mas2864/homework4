@@ -74,6 +74,7 @@ body {
 }
 
 .projectimage{
+    padding:5px;
     float:left;
     transition: scale 0.5s ease,opacity 0.5s ease;
 }
