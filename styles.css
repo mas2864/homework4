@@ -1,6 +1,7 @@
 html{
 font-family: Acumin, Univers, Arial, Helvetica, sans-serif;
 color: white;
+scroll-behavior: smooth;
 }
 
 body {
